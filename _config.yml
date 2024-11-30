@@ -10,7 +10,7 @@ baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 
 header:
-  image: "/sources/images/profile-pic.jpg"  # Ensure this matches your image path
+  image: "/assets/images/profile-pic.jpg"  # Ensure this matches your image path
 
 # Header navigation configuration (ensure this section exists)
 header_pages:
@@ -22,4 +22,4 @@ header_pages:
 # Optional: you can add other fields like social media links, navigation, etc.
 extra:
   head:
-    - "<link rel='stylesheet' href='/sources/style/style.css'>"
+    - "<link rel='stylesheet' href='/assets/css/style.css'>"
