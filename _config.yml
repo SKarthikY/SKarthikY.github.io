@@ -3,7 +3,7 @@ title: S Karthik Yadavalli
 description: "Personal Website"
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
 
-theme: "jekyll/minima"  # Switch to Minima theme
+theme: minima  # Switch to Minima theme
 
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
