@@ -2,21 +2,24 @@
 title: S Karthik Yadavalli
 description: "Personal Website"
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
-logo: /assets/images/profile-pic.jpg
 
-# remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
+remote_theme: "jekyll/minima"  # Switch to Minima theme
 
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 
 header:
-  image: "/assets/images/profile-pic.jpg"  # Ensure this matches your image path
+  image: "/sources/images/profile-pic.jpg"  # Ensure this matches your image path
 
+# Header navigation configuration (ensure this section exists)
+header_pages:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
 
 # Optional: you can add other fields like social media links, navigation, etc.
-
-# _config.yml
 extra:
   head:
-    - "<link rel='stylesheet' href='/assets/style/style.css'>"
+    - "<link rel='stylesheet' href='/sources/style/style.css'>"
