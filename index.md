@@ -9,4 +9,5 @@ I am an Astrophysics graduate student at Harvard University and I study core-col
 
 Because this explosion happens when a star dies, it can be used to probe the details of how stars die and the unique processes that happen during stellar death. 
 
-![Profile Picture >](assets/images/profile-pic.jpg "Title" = x250px)
+
+<img src="/assets/images/profile-pic.jpg" alt="Profile Picture" style="width: 50%;">
