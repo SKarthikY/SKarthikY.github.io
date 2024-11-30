@@ -3,13 +3,10 @@ layout: default
 title: Home
 ---
 
-
-
 <!-- Create a container div for header text and image -->
 <div class="header-container">
   <div class="header-text">
     <h2>Welcome to My Personal Research Website!</h2>
-    <p>I'm passionate about astrophysics and web development...</p>
   </div>
   <!-- Image aligned to the right -->
   <img class="header-image" src="/assets/images/profile-pic.jpg" alt="Profile Picture">
