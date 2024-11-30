@@ -9,13 +9,10 @@ remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of
 baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 
-
-
 header:
   image: "/sources/images/profile-pic.jpg"  # Ensure this matches your image path
 
-
-# _config.yml
+# Header navigation configuration
 header_pages:
   - title: "Home"
     url: "/"
@@ -23,8 +20,6 @@ header_pages:
     url: "/about/"
 
 # Optional: you can add other fields like social media links, navigation, etc.
-
-# _config.yml
 extra:
   head:
     - "<link rel='stylesheet' href='/sources/style/style.css'>"
