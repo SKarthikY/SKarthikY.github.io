@@ -1,6 +1,6 @@
 # _config.yml
-title: My Jekyll Site
-description: "A simple site using the Cayman theme."
+title: s. Karthik Yadavalli
+description: "Personal Website"
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
 
 remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
