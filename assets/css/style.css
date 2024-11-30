@@ -4,3 +4,22 @@
   background-position: center; /* Centers the image */
   height: 300px;  /* Adjust this value to control the height of the header */
 }
+
+/* Container to hold both text and image */
+.header-container {
+  display: flex;  /* Use flexbox to arrange text and image horizontally */
+  justify-content: space-between;  /* Make the text take the left space, and the image the right space */
+  align-items: center;  /* Vertically center content */
+  margin: 20px 0;  /* Adjust top and bottom spacing */
+}
+
+/* Style for the header text */
+.header-text {
+  flex: 1;  /* Let the text take up remaining space to the left */
+}
+
+/* Style for the image */
+.header-image {
+  width: 30%;  /* Set image width to 30% (can be adjusted) */
+  border-radius: 8px;  /* Optional: rounds the corners of the image */
+}
