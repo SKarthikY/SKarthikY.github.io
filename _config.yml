@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+title: My Awesome Site
+description: "This is a description of my website."
+url: "https://skarthiky.github.io/"  # Add your site URL here
+baseurl: ""  # Leave it empty unless you're using a subpath for your site
+
+# Optional: Enable theme-specific settings
+theme: jekyll-theme-basically-basic
