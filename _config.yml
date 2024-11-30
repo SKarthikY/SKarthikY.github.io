@@ -11,3 +11,8 @@ baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 
 # Optional: you can add other fields like social media links, navigation, etc.
+
+# _config.yml
+extra:
+  head:
+    - "<link rel='stylesheet' href='/assets/css/style.css'>"
