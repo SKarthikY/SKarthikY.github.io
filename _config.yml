@@ -5,12 +5,13 @@ url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
 
 remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
 
-header:
-  image: "/Images/Profile_Picture.jpg"  # Update with the correct path to your image
-
 
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 
 # Optional: you can add other fields like social media links, navigation, etc.
+
+extra:
+  head:
+    - "<link rel='stylesheet' href='/assets/css/style.css'>"
