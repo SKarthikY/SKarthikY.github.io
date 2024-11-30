@@ -1,6 +1,6 @@
 .site-header {
-  background-image: url('/assets/images/profile-pic.jpg');
-  background-size: cover; /* Makes sure the image covers the header area */
+  background-image: url('/assets/images/profile_pic.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image fully covers the header area */
   background-position: center; /* Centers the image */
   height: 300px;  /* Adjust this value to control the height of the header */
 }
