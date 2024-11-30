@@ -3,10 +3,8 @@ title: My Jekyll Site
 description: "A simple site using the Cayman theme."
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
 
-# Remote theme setup for Cayman
-remote_theme: "pages-themes/cayman@v0.1.0"  # This is the latest version of the Cayman theme
-theme: "cayman"  # Ensure this is set to "cayman"
-
+remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
+theme: "cayman"  # You can optionally leave this, but it's fine to specify
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
 permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
