@@ -2,11 +2,9 @@
 title: S Karthik Yadavalli
 description: "Personal Website"
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
+logo: /assets/images/profile-pic.jpg
 
 remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
-
-header:
-  image: "/assets/images/profile-pic.jpg"  # Path to your header image
 
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
