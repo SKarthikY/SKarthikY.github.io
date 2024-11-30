@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Jekyll Site!
+# Welcome to My Personal Research Website!
 
 This is a basic page using the **Cayman theme**.
 
