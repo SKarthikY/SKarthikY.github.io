@@ -13,7 +13,7 @@ header:
   image: "/assets/images/profile-pic.jpg"  # Ensure this matches your image path
 
 # Header navigation configuration (ensure this section exists)
-header_pages:
+pages:
   - title: "Home"
     url: "/"
   - title: "About"
