@@ -3,7 +3,7 @@ title: S Karthik Yadavalli
 description: "Personal Website"
 url: "https://skarthiky.github.io"  # Replace with your GitHub Pages URL
 
-remote_theme: "pages-themes/cayman@v0.1.0"  # Use pages-themes/cayman instead of just cayman
+remote_theme: "jekyll/minima"  # Switch to Minima theme
 
 # Site-specific configurations
 baseurl: ""  # Leave empty unless you're using a subfolder
@@ -12,7 +12,7 @@ permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 header:
   image: "/sources/images/profile-pic.jpg"  # Ensure this matches your image path
 
-# Header navigation configuration
+# Header navigation configuration (ensure this section exists)
 header_pages:
   - title: "Home"
     url: "/"
