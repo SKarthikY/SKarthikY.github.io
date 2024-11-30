@@ -18,6 +18,8 @@ pages:
     url: "/"
   - title: "About"
     url: "/about/"
+  - title: "Research Interests"
+    url: "/research/"
 
 # Optional: you can add other fields like social media links, navigation, etc.
 extra:
