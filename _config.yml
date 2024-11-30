@@ -15,4 +15,4 @@ permalink: /:year/:month/:day/:title/  # This is for blog post URL structure
 # _config.yml
 extra:
   head:
-    - "<link rel='stylesheet' href='/assets/css/style.css'>"
+    - "<link rel='stylesheet' href='/assets/style/style.css'>"
