@@ -13,6 +13,13 @@ header:
   image: "/sources/images/profile-pic.jpg"  # Ensure this matches your image path
 
 
+# _config.yml
+header_pages:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+
 # Optional: you can add other fields like social media links, navigation, etc.
 
 # _config.yml
