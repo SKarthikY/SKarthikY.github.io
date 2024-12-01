@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Climbing
+layout: default       # You can choose a different layout if you have a custom one
+title: "Climbing"     # Page title that shows in the browser
+permalink: /climbing/    # The URL path for the page (optional but recommended)
 ---
+
 
 <!-- Create a container div for header text and image -->
 <div class="header-container">
