@@ -18,6 +18,8 @@ pages:
     url: "/"
   - title: "Research Interests"
     url: "/research/"
+  - title: "Cool Humans"
+    url: "/blog/"
 
 
 
