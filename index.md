@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: About
 ---
 
 <!-- Create a container div for header text and image -->
