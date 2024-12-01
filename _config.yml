@@ -14,7 +14,7 @@ header:
 
 # Header navigation configuration (ensure this section exists)
 pages:
-  - title: "Home"
+  - title: "About"
     url: "/"
   - title: "Research Interests"
     url: "/research/"
