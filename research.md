@@ -16,7 +16,10 @@ Many of these supernovae are thought to be powered by the radioactive decay of $
 ## Using AI to Learn Physics
 In order to learn about the composition and energetics of a supernova, I need to first understand the intricate influence between the light detected from the supernova and the composition of the ejecta. Specifically, I need to simulate light traveling through supernova ejecta, and then connect the resulting light curve of this travel path to the specific combination of energetics and composition of the supernova. Today, we do this using "radiative transfer simulations", which literally track photons as they move through matter. These simulations are extremely computationally expensive and slow, however, making the job of learning anything insightful very difficult.
  
-The main goal of my thesis is to build a neural network that will emulate one such radiative transfer code. By training a neural network to do the job of predicting a light curve from an input supernova ejecta, I hope to be able to make real predictions about supernova compositions quickly an efficiently enough to make statements about whole populations of suernovae.  
+The main goal of my thesis is to build a neural network that will emulate one such radiative transfer code. By training a neural network to do the job of predicting a light curve from an input supernova ejecta, I hope to be able to make real predictions about supernova compositions quickly an efficiently enough to make statements about whole populations of suernovae. 
+
+## Observational Astronomy
+As part of my thesis, I also aim to obtain observations of many stripped envelope supernovae, which I can study using the radiative transfer studied cited above. As such, I am currently the principle investigator on observing programs on keplercam, a photometric telescope, and on FAST, a spectrograph. Both keplercam and FAST are instruments at the whipple observatory and are run through the Center for Astrophysics. 
 
 
 # Research Projects
