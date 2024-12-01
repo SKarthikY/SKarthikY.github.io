@@ -17,6 +17,9 @@ You can read this paper [here](https://iopscience.iop.org/article/10.3847/1538-4
 
 
 ## Radiative Transfer modeling of Supernovae
+Many supernovae are powered by a radioative material. Radioactive material, often $\rm{Ni^{56}}$, radioactively decays into something more stable and emits gamma rays into the surroundings. These gamma rays are then absorbed and re-emitted by the surrounding material until eventually the light makes its way out of the thick cloud of ejecta. 
+
+Therefore, by understanding how 
 
 
 # Research Interests
