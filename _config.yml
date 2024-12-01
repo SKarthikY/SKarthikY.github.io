@@ -16,8 +16,6 @@ header:
 pages:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
   - title: "Research Interests"
     url: "/research/"
 
