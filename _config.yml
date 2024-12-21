@@ -22,6 +22,6 @@ pages:
 
 
 # Optional: you can add other fields like social media links, navigation, etc.
-#extra:
-#  head:
-#    - "<link rel='stylesheet' href='/assets/css/style.css'>"
+extra:
+  head:
+    - "<link rel='stylesheet' href='/assets/css/style.css'>"
