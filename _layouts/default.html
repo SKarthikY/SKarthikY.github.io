@@ -1,0 +1,53 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Include MathJax or KaTeX -->
+    {% if site.math_library == "mathjax" %}
+        <script type="text/javascript" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    {% elsif site.math_library == "katex" %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-MlP8GoE4FcIaX7x8r9erC3IuRfI+hgmyUmlD5H8b7O4IOfY5xMmRfOKHp/9yyfoT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-Cz5xEvlD23wZV19bDHE0M6I+Ff5XwFpy+79o+dIXXjlnKh14xygq2wEF88u7bbXs" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-WFT32ZlzCp1JcPrYqF2wFHfn7wlfxkjrC0+dUz0NzDdp6TZth3gOtM5Jzhzlt9q6" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body);
+            });
+        </script>
+    {% endif %}
+
+    <!-- You can add custom CSS here or link an external stylesheet -->
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relative_url }}">Home</a></li>
+                <li><a href="{{ "/about" | relative_url }}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
