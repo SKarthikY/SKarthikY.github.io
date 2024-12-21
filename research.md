@@ -1,7 +1,7 @@
 ---
 layout: default       
 title: "Research Interests"     # Page title that shows in the browser
-permalink: /reserch/    # The URL path for the page (optional but recommended)
+permalink: /research/    # The URL path for the page (optional but recommended)
 ---
 
 
