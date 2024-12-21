@@ -20,8 +20,7 @@ In my free time, I like to rock climb, volunteer, and ride my bicycle.
 
 
 
-<!--
+
 extra:
   head:
     - "<link rel='stylesheet' href='/assets/css/style.css'>"
--->
