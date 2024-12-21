@@ -40,3 +40,8 @@ You can read this paper [here](https://iopscience.iop.org/article/10.3847/1538-4
 ## Radiative Transfer modeling of Supernovae
 
 For my current project, I am simulating supernova explosions to track how light travels through this supernova ejecta, and then connecting that final observed light curve to the inputs to the simulation to then try to infer physics about the input parameters from the observed light curve.
+
+
+extra:
+  head:
+    - "<link rel='stylesheet' href='/assets/css/style.css'>"
