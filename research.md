@@ -27,7 +27,7 @@ As part of my thesis, I also aim to obtain observations of many stripped envelop
 ## SN 2022oqm
 
 <div style="overflow: hidden;">
-  <img src="assets/images/2022oqm-host.jpg" alt="Image description" style="float: left; margin-right: 20px; max-width: 200px;">
+  <img src="assets/images/2022oqm-host.jpg" alt="Image description">
   SN 2022oqm is a supernova that was detected back in July 2022. We obtained a lot of photometry and spectroscopy while it was still bright and visible for the next couple months. After that, I led a research project where we analyzed the all the obtained data to try to tell a story about what kind of star exploded, why it did so, and what its environment was. 
 </div>
 
